@@ -1,0 +1,12 @@
+[package]
+name = "evaluation"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Held-out checks, promotion gates, and the first GRPO versus GRPO+CPO comparison"
+
+[dependencies]
+exploration = { path = "../exploration" }
+narrative-world = { path = "../narrative-world" }
+rlvr = { path = "../rlvr" }
+serde.workspace = true

@@ -1,0 +1,11 @@
+[package]
+name = "rlvr"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "GRPO and contrastive advantage shaping for verifiable narrative rewards"
+
+[dependencies]
+burn.workspace = true
+narrative-world = { path = "../narrative-world" }
+serde.workspace = true

@@ -1,0 +1,7 @@
+/target
+/checkpoints/**
+/crates/story-desk/lora/*.safetensors
+!/checkpoints/.gitkeep
+/data/generated/*
+!/data/generated/.gitkeep
+/experiments/*.jsonl

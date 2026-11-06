@@ -1,0 +1,10 @@
+[package]
+name = "exploration"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+description = "Narrative diversity archive, novelty, and a success-rate curriculum"
+
+[dependencies]
+narrative-world = { path = "../narrative-world" }
+serde.workspace = true
